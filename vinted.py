@@ -289,7 +289,7 @@ session = create_session()
 #session.proxies = {'http': 'http://127.0.0.1:8888', 'https': 'http://127.0.0.1:8888'}
 session.csrf_token = VintedCSRF().get_csrf(session=session)
 
-#loginInstance = VintedLogin(username='albertovergani267@gmail.com', password='TiffanyVerga44@')
+#loginInstance = VintedLogin(username='email', password='password')
 #captchasUUID, verified = loginInstance.captchas(session=session)
 #token_type, scope, access_token, refresh_token = loginInstance.token(session=session, captchasUUID=captchasUUID)
 
